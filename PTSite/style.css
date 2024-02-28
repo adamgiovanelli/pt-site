@@ -1,0 +1,210 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('photos/manualTherapy.webp');
+    background-size: cover;
+    background-position: 50% 40%;
+    color: #ffffff;
+    text-align: center;
+    padding: 20% 0;
+    transform: scaleX(-1);
+    margin-top: 72.85px;
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+  background-position: 30% 10%;
+  padding: 71% 0;
+  }
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  transform: scaleX(-1);
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  transform: scaleX(-1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .card-img-top {
+  height: 60vw;;
+  }
+}
+
+.section-header {
+  font-weight: bold;
+  color: #333; /* Adjust the color as needed */
+  margin-bottom: 20px;
+  margin-top: 8%;
+  text-align: center;
+}
+
+.physicalTherapyServices{
+  text-align: center;
+}
+
+.col-md-4{
+  margin-top: 1%;
+}
+
+@media (max-width: 767.98px) {
+  .section-header{
+    margin-top: 10%;
+  }
+  .physicalTherapyServices{
+    margin-bottom: -1%;
+  }
+  .col-md-4{
+    margin-top: 5%;
+  }
+}
+
+.card-bg-image {
+  height: 15vw;
+  background-image: url('photos/therapeuticExercises.jpg');
+  background-size: cover;
+  background-position: 10% 10%;
+}
+
+@media (max-width: 767.98px) {
+  .card-bg-image {
+      height: 60vw;
+  }
+}
+
+.about-us .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+.about-us-images {
+  border-radius: 10px;
+  width: 246px;
+  height: auto;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .about-us img {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}
+
+.contact {
+  padding: 50px 0;
+}
+
+.contact .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .contact img {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  position: relative;
+}
+
+.anchor {
+  position: absolute;
+  top: -55%; /* given the fixed header is 50px tall, and you want 15px padding */
+  left: 0px;
+}
+
+.anchor#about-us{
+  position: absolute;
+  top: -15%; /* given the fixed header is 50px tall, and you want 15px padding */
+  left: 0px;
+}
+
+.contact,.contact-header {
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('photos/buildingFrontFromFacebook.jpg');
+  background-size: cover;
+  background-position: 0 90%;
+  color: #ffffff;
+  text-align: center;
+  padding: 10%;*/
+  color: #ffffff;
+  text-align: center;
+  /*padding: 10%;*/
+  background-color: #0057b383;
+}
+
+.contact {
+  font-size: 16pt;
+}
+
+.contact-header {
+  font-size: 32pt;
+  background-color: transparent;
+  margin-top: 3%;
+}
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 20px; /* Added for spacing */
+}
+
+.patient-form-header {
+  margin-top: 20%;
+}
+
+@media (max-width: 767.98px) {
+  .patient-form-header {
+  margin-top: 40%;
+  }
+}
+
+.list-item-spacing {
+  margin-bottom: 0.5em;
+}
+
+.billing-info {
+  margin-right:25%;
+  margin-left:25%;
+}
+
+@media (max-width: 767.98px) {
+  .billing-info {
+    margin-right:10%;
+    margin-left:10%;
+  }
+}
